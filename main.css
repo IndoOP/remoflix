@@ -1,0 +1,16 @@
+       li{
+            margin-left: 10px;
+            transition: all 0.5s ease-in-out !important;
+        }
+        li:hover{
+            color: #006eff !important;
+            background-color: #fff !important;
+        }
+        .warn{
+            display: none;
+        }
+        @media only screen and (max-width: 600px){
+            .warn{
+                display: block;
+            }
+        }
