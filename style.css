@@ -84,6 +84,11 @@ h1{
   color: #f1f1f1;
   width: 100%;
 }
+@media screen only and (max-width: 600px){
+    .trend{
+        max-width: 100%;
+    }
+}
 .naruto:hover{
   transform: translateY(-50px);
   box-shadow: 0 50px 20px rgba(0, 0, 0, 0.5);
