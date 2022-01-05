@@ -16,4 +16,7 @@ const myFunction = () => {
     btn.innerHTML = "Play";
   }
 }
-</script>
+
+const HOTD = () => {
+ window.open("https://xdubteam.blogspot.com/2021/03/high-school-of-dead-hindi-dubbed.html"); 
+}
