@@ -15,33 +15,33 @@
 const naruto = (n) => {
   console.log(n);
           if (n == 1) {
-              vid.src = ep1;
+              vid.src = Nep1;
           }
           else if (n == 2) {
-              vid.src = ep2;
+              vid.src = Nep2;
           }
           else if (n == 4) {
-              vid.src = ep4;
+              vid.src = Nep4;
           }
           else if (n == 5) {
-              vid.src = ep5;
+              vid.src = Nep5;
           }
           else if (n == 6) {
-              vid.src = ep6;
+              vid.src = Nep6;
           }
           else if (n == 7) {
-              vid.src = ep7;
+              vid.src = Nep7;
           }
           else if (n == 8) {
-              vid.src = ep8;
+              vid.src = Nep8;
           }
           else if (n == 9) {
-              vid.src = ep9;
+              vid.src = Nep9;
           }
           else if (n == 10) {
-              vid.src = ep10;
+              vid.src = Nep10;
           }
           else if (n == 11) {
-              vid.src = ep11;
+              vid.src = Nep11;
           }
 }
