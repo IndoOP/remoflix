@@ -12,7 +12,7 @@
       var Nep9 = "https://store.animewat.ch//Naruto/Naruto%20Episode%20009%20-%20Kakashi%20Sharingan%20Warrior[][RapidBot].mkv";
       var Nep10 = "https://store.animewat.ch//Naruto/Naruto%20Episode%20010%20-%20The%20Forest%20of%20Chakra[][RapidBot].mkv";
       var Nep11 = "https://store.animewat.ch//Naruto/Naruto%20Episode%20011%20-%20The%20Land%20Where%20a%20Hero%20Once%20Lived[][RapidBot].mkv";
-const naruto = (n) => {
+/*const naruto = (n) => {
   console.log(n);
           if (n == 1) {
               vid.src = Nep1;
@@ -44,4 +44,36 @@ const naruto = (n) => {
           else if (n == 11) {
               vid.src = Nep11;
           }
-}
+}*/
+
+document.getElementById("nep1").addEventListener('click', function(){
+  vid.src=Nep1;
+})
+document.getElementById("nep2").addEventListener('click', function(){
+  vid.src=Nep2;
+})
+document.getElementById("nep4").addEventListener('click', function(){
+  vid.src=Nep4;
+})
+
+document.getElementById("nep5").addEventListener('click', function(){
+  vid.src=Nep5;
+})
+document.getElementById("nep6").addEventListener('click', function(){
+  vid.src=Nep6;
+})
+document.getElementById("nep7").addEventListener('click', function(){
+  vid.src=Nep7;
+})
+document.getElementById("nep8").addEventListener('click', function(){
+  vid.src=Nep8;
+})
+document.getElementById("nep9").addEventListener('click', function(){
+  vid.src=Nep9;
+})
+document.getElementById("nep10").addEventListener('click', function(){
+  vid.src=Nep10;
+})
+document.getElementById("nep11").addEventListener('click', function(){
+  vid.src=Nep11;
+})
