@@ -1,5 +1,5 @@
 //video var
-     var vid = document.getElementByID("player");
+     var vid = document.getElementById("player");
 
 //naruto
       var Nep1 = "https://store.animewat.ch//Naruto/Naruto%20Episode%20001%20-%20Enter%20Naruto%20Uzumaki[][RapidBot].mkv";
